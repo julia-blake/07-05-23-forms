@@ -1,0 +1,130 @@
+.hero {
+  background-color: #f3f3f5;
+  display: flex;
+}
+
+.hero__image-section {
+  width: 100%;
+}
+
+.hero__image {
+  width: 100%;
+}
+
+.form {
+  padding: 153px 97px 180px 120px;
+}
+
+.hero-title {
+  font-weight: bold;
+  font-size: 44px;
+  margin-bottom: 16px;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  margin-bottom: 44px;
+}
+
+.hero__form {
+}
+
+.hero__form-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.hero__form-input {
+  padding: 19px 23px;
+
+  border: 0.5px solid #b6b6b6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+}
+
+.hero__form-input-email {
+  box-sizing: border-box;
+
+  padding: 19px 751px 19px 23px;
+
+  width: 100%;
+  margin-top: 12px;
+
+  border: 0.5px solid #b6b6b6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+}
+
+.hero__form-textarea {
+  box-sizing: border-box;
+
+  padding: 10px 707px 112px 23px;
+
+  resize: none;
+  width: 100%;
+  margin-top: 12px;
+
+  border: 0.5px solid #b6b6b6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+
+  font-family: Arial;
+}
+
+.hero__capture-wrapper {
+  display: flex;
+  margin-top: 21px;
+  align-items: center;
+  column-gap: 11px;
+}
+
+.hero__form-label {
+  display: flex;
+  column-gap: 11px;
+  align-items: center;
+}
+
+.hero__form-reset {
+  color: white;
+  background-color: #b6b6b6;
+  border-radius: 8px;
+  border: 0.5px solid #b6b6b6;
+  padding: 17px 24px;
+  font-size: 20px;
+}
+
+.hero__form-submit {
+  box-sizing: border-box;
+  background-color: #b99674;
+  font-size: 20px;
+  color: #ffffff;
+
+  width: 100%;
+
+  border-radius: 8px;
+  border: 0.5px solid #a7a7a7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+
+  padding: 26px;
+  margin-top: 18px;
+}
+
+.hero__form-label .hero__form-input {
+  padding: 14px 23px;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 6px;
+
+  background-color: #f7f6f3;
+  /* width: 190px; */
+}
+
+.hero__capture-wrapper > .hero__form-input {
+  width: 100%;
+}
+
+.hero__form-text {
+  font-size: 18px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
+    <section class="hero"> 
+      <div class="form">
+        <h1 class="hero-title">Put Life Into Your Ideas With Us</h1>
+        <p class="hero-subtitle">
+          Let’s discuss your project and find out what we can do to provide value.
+        </p>    
+        <form class="hero__form" action="#">
+          <div class="hero__form-wrapper">
+            <input class="hero__form-input" type="text" required placeholder="Name">
+            <input class="hero__form-input" type="text" placeholder="Select Country">
+            <input class="hero__form-input" type="number" placeholder="Phone" >
+            <input class="hero__form-input" type="text" placeholder="Select Service">
+          </div>
+          
+          
+            <input class="hero__form-input-email"  type="email" placeholder="Email I’d">
+            <textarea class="hero__form-textarea" placeholder="Project Brief..."></textarea>
+
+            <div class="hero__capture-wrapper">
+              <label class="hero__form-label" for="">
+                <p class="hero__form-text">Captcha:</p>
+                <input class="hero__form-input" value="NHTT187" type="text" disabled>
+              </label>
+              <input class="hero__form-reset" type=reset>
+              <input class="hero__form-input" type="text" placeholder="Enter Captcha">
+            </div>
+            <button class="hero__form-submit" type="submit">Send Message</button>
+        </form>
+
+      </div>
+      <div class="hero__image-section">
+        <img class="hero__image" src="./img/woman.png" alt="woman">
+      </div>
+    </section>
+  </body>
+</html>
